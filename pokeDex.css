@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  font-family: "DotGothic16", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid;
+  border-color: gray;
+}
+
+form {
+  font-family: "DotGothic16", sans-serif;
+}

@@ -18,4 +18,5 @@ function LogIn(event) {
   document.querySelector("#Name").innerHTML = Data[PokeS]["name"];
   document.querySelector("#Type").innerHTML = Data[PokeS]["types"];
   document.querySelector("#Evos").innerHTML = Data[PokeS]["evos"];
+  document.querySelector("#Color").innerHTML = Data[PokeS]["color"];
 }

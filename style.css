@@ -67,21 +67,27 @@ form input {
   grid-template-columns: 1fr 1fr;
 }
 
-.middlemain {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .eevee {
+  display: flex;
+  align-items: flex-start;git 
   grid-column: 1;
 }
 
 .text {
+  display: flex;
+  align-items: flex-start;
   grid-column: 2;
 }
 
 .pikachu {
+  display: flex;
+  align-items: flex-start;
   grid-column: 3;
+}
+
+.middlemain {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 .welcome {
@@ -115,6 +121,5 @@ form input {
 
 .homemain {
   font-size: 120%;
-  max-width: 50%;
-  margin: auto;
+  max-width: 100%;
 }

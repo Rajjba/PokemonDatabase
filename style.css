@@ -37,7 +37,7 @@ body {
   grid-template-rows: 1fr 3fr 1fr;
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background-color: white;
   background-size: 100%;
 }
 
@@ -71,6 +71,8 @@ form input {
   display: flex;
   align-items: center;
   grid-column: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button0 {
@@ -84,6 +86,8 @@ form input {
   display: flex;
   align-items: center;
   grid-column: 3;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .middlemain {
@@ -101,15 +105,19 @@ form input {
 
 .button0 a {
   display: flex;
-  font-size: 80px;
+  font-size: 90px;
   text-decoration: none;
   justify-content: center;
-  color: white;
+  color: black;
   font-family: "DotGothic16", sans-serif;
 }
 
+.button0 a {
+  transition: text-shadow 0.5s;
+}
+
 .button0 :hover {
-  text-shadow: 5px 8px 0px black;
+  text-shadow: 4px 6px 0px grey;
   transform: scale(1.2);
 }
 

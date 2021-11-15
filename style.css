@@ -69,19 +69,20 @@ form input {
 
 .eevee {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   grid-column: 1;
 }
 
-.text {
+.button0 {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   grid-column: 2;
 }
 
 .pikachu {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   grid-column: 3;
 }
 
@@ -95,18 +96,21 @@ form input {
   justify-content: center;
   font-family: "DotGothic16", sans-serif;
   color: white;
-  text-align: center;
   font-size: 135%;
 }
 
 .button0 a {
   display: flex;
-  font-size: 60px;
+  font-size: 80px;
   text-decoration: none;
   justify-content: center;
-  align-items: center;
   color: white;
   font-family: "DotGothic16", sans-serif;
+}
+
+.button0 :hover {
+  text-shadow: 5px 8px 0px black;
+  transform: scale(1.2);
 }
 
 .button1 a {
@@ -117,6 +121,10 @@ form input {
   text-decoration: none;
   color: white;
   font-family: "DotGothic16", sans-serif;
+}
+
+.button1 :hover {
+  text-shadow: 0px 0px 5px white;
 }
 
 .homemain {

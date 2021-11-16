@@ -33,7 +33,7 @@ function LogIn(event) {
       document.body.style.backgroundColor = "blue";
       break;
     case "Black":
-      document.body.style.backgroundColor = "black";
+      document.body.style.backgroundColor = "#333333";
       break;
     case "Yellow":
       document.body.style.backgroundColor = "yellow";
@@ -42,7 +42,7 @@ function LogIn(event) {
       document.body.style.backgroundColor = "purple";
       break;
     case "Brown":
-      document.body.style.backgroundColor = "#9e3906";
+      document.body.style.backgroundColor = "#2b2b2b";
       break;
     case "Pink":
       document.body.style.backgroundColor = "pink";

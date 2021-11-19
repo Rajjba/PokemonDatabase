@@ -41,10 +41,9 @@ body {
   background-size: 100%;
 }
 
-footer h1 {
-  color: white;
+footer h3 {
+  color: #c4c4c4;
   display: flex;
-  font-family: "DotGothic16", sans-serif;
   padding-top: 10px;
   padding-left: 20px;
 }
@@ -92,7 +91,7 @@ form input {
 
 .middlemain {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .welcome {
@@ -139,4 +138,13 @@ form input {
 .homemain {
   font-size: 120%;
   max-width: 100%;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "DotGothic16", sans-serif;
+  color: white;
+  margin-top: 10px;
 }
